@@ -6,3 +6,5 @@ spring:
     config:
       uri: http://localhost:8080
 management:  endpoints:    web:      exposure:        include: "*"
+server:
+  port: 9006 
